@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(41, 9, 9);
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 48px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 14px;
+}
+
+.logo img{
+    width: 40px;
+    padding: 0 8px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.container{
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.637), rgba(0, 0, 0, 0.603)), url(jhokey.jpg);
+    /* background-image: url('jhokey.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    width: 70vw;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    align-items: center;
+    margin:1rem auto;
+    border-radius: 0.7rem;
+    padding: 0.7rem;
+}
+h1{
+    color: rgb(5, 189, 75);
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 15vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#progressbar{
+    margin-top: 1.5rem;
+    width: 80vw;
+}
+
+
+.icons{
+    margin-bottom: 0.6rem;
+}
+
+.icons i {
+    cursor: pointer;
+}
+
+.songItemsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.songitem{
+    margin-top: 0.5rem;
+    height: 2.7rem;
+    font-size: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.692);
+    min-width: 40vw;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem;
+}
+.timetag{
+    margin-right: 1rem;
+}
+
+.songitem img{
+    height: 2.2rem;
+    border-radius: 50px;
+    margin-left: 0.7rem;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.songGif img{
+    width: 7vw;
+    height: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+#nameatgif{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.7rem;    
+}

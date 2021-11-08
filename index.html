@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"> <img src="spotify.png" alt="spotifylogo"> 07'sMusic </li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songslist">
+        <h1>Best Of YoungStunners</h1>
+        <div>
+            <div class="songItemsContainer">
+            <div class="songitem">
+                <img alt="1">
+                <span class="songname" ></span>
+                <span class="timetag" >4:31 <i id="1" class="fas playicon cursor fa-play-circle"></i> </span>
+            </div>
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songname" ></span>
+                <span class="timetag" >4:31 <i id="2" class="fas playicon cursor fa-play-circle"></i> </span>
+            </div>
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songname" ></span>
+                <span class="timetag" >4:14 <i id="3" class="fas playicon cursor fa-play-circle"></i> </span>
+            </div>
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songname" ></span>
+                <span class="timetag" >3:09 <i id="4" class="fas playicon cursor fa-play-circle"></i> </span>
+            </div>
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songname" ></span>
+                <span class="timetag" >3:20 <i id="5" class="fas playicon cursor fa-play-circle"></i> </span>
+            </div>
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songname" ></span>
+                <span class="timetag" >4:19 <i id="6" class="fas playicon cursor fa-play-circle"></i> </span>
+            </div>
+            <div class="songitem">
+                <img alt="1">
+                <span class="songname" ></span>
+                <span class="timetag" >4:24 <i id="7" class="fas playicon cursor fa-play-circle"></i> </span>
+            </div>
+            <div class="songitem">
+                <img alt="1">
+                <span class="songname" ></span>
+                <span class="timetag" >3:14 <i id="8" class="fas playicon cursor fa-play-circle"></i> </span>
+            </div>
+        </div> 
+        </div>  
+        </div>
+        
+        
+        <div class="songposter"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" id="progressbar" min="0" max="100" value="0">
+        <div class="songGif">
+            <img src="musi1.gif" alt="" id="gif" > <span id="nameatgif"></span>
+        </div>
+        <div class="icons">
+            <!-- music player icons -->
+            <i class="fas fa-2x fa-backward" id="back" ></i>
+            <i class="fas fa-2x fa-play-circle" id="play"></i>
+            <i class="fas fa-2x fa-forward" id="forward" ></i>
+        </div>
+
+        <!-- <div class="songGif">
+            <img src="music.gif" alt="">
+        </div> -->
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
